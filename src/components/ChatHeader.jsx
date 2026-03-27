@@ -1,7 +1,7 @@
 export default function ChatHeader() {
   return (
-    <div className="bg-white rounded-t-3xl overflow-hidden">
-      <div className="w-full h-80 bg-gray-100 flex items-center justify-center">
+    <div className="bg-white rounded-t-2xl sm:rounded-t-3xl overflow-hidden">
+      <div className="w-full h-40 sm:h-56 md:h-64 bg-gray-100 flex items-center justify-center">
         <video
           autoPlay
           loop
